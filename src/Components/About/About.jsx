@@ -15,7 +15,7 @@ export default function About() {
       <div
         id="About"
         style={{
-          height: "100px",
+          height: "10px",
           border: "0px solid blue",
           padding: "10px",
         }}></div>
@@ -39,13 +39,7 @@ export default function About() {
           <div className={style.aboutDetails}>
             <div className="aboutMe" id="user-detail-intro">
               <p className={style.namep}>
-                I am Mrunali Gabhane. Dynamic and motivated web developer with
-                over 1000+ hours of hands-on experience in HTML, CSS,
-                JavaScript, and Reactjs. Good problem-solving skills and the
-                ability to work effectively as part of a team or independently.
-                Committed to creating visually appealing, user-friendly, and
-                responsive websites. Passionate about web development and eager
-                to continue learning and growing in the field.
+                <span  id="user-detail-name">I am Mrunali Gabhane.</span> Highly skilled and motivated Full Stack Web Developer proficient in MERN stack with +1200 hours of coding experience. Demonstrated ability to build solo and collaborative projects, showcasing strong problem-solving skills. Adaptable and quick to grasp new tech stacks, including Generative AI. A valuable team player with a commitment to excellence and continuous learning.
               </p>
             </div>
 

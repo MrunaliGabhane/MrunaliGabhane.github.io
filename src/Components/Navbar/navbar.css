@@ -1,6 +1,7 @@
 .navbar {
   width: 100%;
-  backdrop-filter: blur(12px) saturate(180%);
+  /* backdrop-filter: blur(12px) saturate(180%); */
+  background: black;
   position: fixed;
   z-index: 100;
   font-size: 18px;

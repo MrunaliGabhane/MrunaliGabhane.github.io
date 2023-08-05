@@ -4,7 +4,6 @@ import GitHubCalendar from "react-github-calendar";
 import ReactTooltip from "react-tooltip";
 import style from "./Github.module.css";
 
-
 const GitHub = ({ colorMode }) => {
   const github = {
     margin: "auto",
@@ -43,12 +42,12 @@ const GitHub = ({ colorMode }) => {
         Github Calender
       </Heading>
 
-      <Box w="100%" style={github}>
+      <Box w="100%" bg={"white"} style={github}>
         <GitHubCalendar
           class="react-activity-calendar"
           fontFamily="Bree Serif, serif"
           style={{ margin: "auto", color: "#4C3575" }}
-          username="mrunaligabhane"
+          username="MrunaliGabhane"
           blockSize={20}
           transformData={selectLast12Months}>
           <ReactTooltip delayShow={20} HTML />
@@ -59,7 +58,7 @@ const GitHub = ({ colorMode }) => {
         <div className={style.one} fontFamily="Bree Serif, serif">
           <Image
             id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com?user=mrunaligabhane&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=#a084ca"
+            src="https://github-readme-streak-stats.herokuapp.com?user=MrunaliGabhane&theme=sea&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D&background=#a084ca"
             alt="mrunali-stats"
           />
         </div>
@@ -67,7 +66,7 @@ const GitHub = ({ colorMode }) => {
         <div className={style.two}>
           <Image
             id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=mrunaligabhane&show_icons=true&title_color=#4c3575&text_color=#4c3575&icon_color=#4c3575&bg_color=red&border_radius=10&border_color=#4c3575"
+            src="https://github-readme-stats.vercel.app/api?username=MrunaliGabhane&show_icons=true&title_color=#4c3575&text_color=#4c3575&icon_color=#4c3575&bg_color=red&border_radius=10&border_color=#4c3575"
             alt="mrunali-status"
           />
         </div>
@@ -75,7 +74,7 @@ const GitHub = ({ colorMode }) => {
         <div className={style.three} fontFamily="Bree Serif, serif">
           <Image
             id="github-top-langs"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrunaligabhane&title_color=4C3575&icon_color=#4c3575&text_color=#4c3575&bg_color=#a084ca&show_icons=true"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrunaliGabhane&title_color=4C3575&icon_color=#4c3575&text_color=#4c3575&bg_color=#a084ca&show_icons=true"
           />
         </div>
       </div>

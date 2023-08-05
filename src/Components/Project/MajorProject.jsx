@@ -8,6 +8,146 @@ export default function MajorProject({ colorMode }) {
   return (
     <div id="projects" className={style.majorMain}>
       <div className="project-card" id={style.major_projectDiv}>
+        <Box
+          className={style.major_project_imgDiv}
+         >
+          <Image
+            className="project-skills-card-img"
+            src="./infinityStone.png"
+            alt="Infinity Stone"
+          />
+        </Box>
+
+        <Box
+          className={style.major_project_detailsDiv}
+          color={colorMode === "light" ? "#4C3575" : "#371B58"}
+          >
+          <Heading
+            className="project-title"
+            id={style.major_project_detailsDiv_Heading}
+            size={["md", "md", "md", "lg"]}>
+            Infinity Stone
+          </Heading>
+          <Heading
+            className="project-description"
+            id={style.major_project_detailsDiv_detail}
+            fontWeight="500"
+            size={["xs", "sm", "sm", "md"]}>
+            CaratLane is an Indian physical and online jewelry
+retailer, headquartered in Chennai, India
+          </Heading>
+          <Heading
+            className="project-tech-stack"
+            id={style.major_project_detailsDiv_tehcs}
+            size={["sm", "sm", "sm", "sm"]}>
+            Tech Stack: React | Redux | CSS | ChakraUI | MongoDB | Nodejs
+          </Heading>
+          <Box
+            className="project-card-btn"
+            id={style.major_project_detailsDi_btnDiv}>
+            <Button
+              className="project-card-btn"
+              size={["xs", "sm", "sm", "sm"]}>
+              <a
+                className="project-github-link"
+                id={style.links}
+                rel="noreferrer"
+                href="https://github.com/VivekTomar03/CaratLane--Clone"
+                target="_blank">
+                Source Code
+              </a>
+              &nbsp;
+              <FaGithub />
+            </Button>
+            <Button
+              className="project-deployed-link"
+              size={["xs", "sm", "sm", "sm"]}>
+              <a
+                className={style.links}
+                rel="noreferrer"
+                href="https://infinity-stone.vercel.app/"
+                target="_blank">
+                Live
+              </a>
+              &nbsp;
+              <FaArrowRight />
+            </Button>
+          </Box>
+        </Box>
+      </div>
+    
+      <div className="project-card" id={style.major_projectDiv}>
+        <Box
+          className={style.major_project_imgDiv}
+          >
+          <Image
+            className="project-skills-card-img"
+            src="./tripbuddy.png"
+            alt="tripbuddy"
+          />
+        </Box>
+
+        <Box
+          className={style.major_project_detailsDiv}
+          color={colorMode === "light" ? "#4C3575" : "#371B58"}
+          >
+          <Heading
+            className="project-title"
+            id={style.major_project_detailsDiv_Heading}
+            size={["sm", "sm", "sm", "lg"]}>
+            TripBuddy
+          </Heading>
+          <Heading
+            className="project-description"
+            id={style.major_project_detailsDiv_detail}
+            fontWeight="500"
+            size={["xs", "sm", "sm", "md"]}>
+            TripBuddy is a comprehensive platform for
+unforgettable stays and seamless travel
+experiences.
+          </Heading>
+          <Heading
+            className="project-tech-stack"
+            id={style.major_project_detailsDiv_tehcs}
+            size={["sm", "sm", "sm", "sm"]}>
+            Tech Stack: Angular | Python | Flask | MongoDB | Gen-Al
+          </Heading>
+          <Box
+            className="project-card-btn"
+            id={style.major_project_detailsDi_btnDiv}>
+            <Button
+              className="project-card-btn"
+              size={["xs", "sm", "sm", "sm"]}>
+              <a
+                className="project-github-link"
+                id={style.links}
+                rel="noreferrer"
+                href="https://github.com/MrunaliGabhane/TripBuddy"
+                target="_blank">
+                Source Code
+              </a>
+              &nbsp;
+              <FaGithub />
+            </Button>
+            <Button
+              className="project-deployed-link"
+              size={["xs", "sm", "sm", "sm"]}>
+              <a
+                className={style.links}
+                rel="noreferrer"
+                href="https://transcendent-strudel-df4d5f.netlify.app"
+                target="_blank">
+                Live
+              </a>
+              &nbsp;
+              <FaArrowRight />
+            </Button>
+          </Box>
+        </Box>
+      </div>
+
+
+      <div className="project-card" id={style.major_projectDiv}>
         <div
           className={style.major_project_imgDiv}
           >
@@ -77,144 +217,6 @@ export default function MajorProject({ colorMode }) {
             </Button>
           </div>
         </div>
-      </div>
-
-      <div className="project-card" id={style.major_projectDiv}>
-        <Box
-          className={style.major_project_imgDiv}
-          >
-          <Image
-            className="project-skills-card-img"
-            src="./tripMate.png"
-            alt="tripMate"
-          />
-        </Box>
-
-        <Box
-          className={style.major_project_detailsDiv}
-          color={colorMode === "light" ? "#4C3575" : "#371B58"}
-          >
-          <Heading
-            className="project-title"
-            id={style.major_project_detailsDiv_Heading}
-            size={["sm", "sm", "sm", "lg"]}>
-            TripMate.com
-          </Heading>
-          <Heading
-            className="project-description"
-            id={style.major_project_detailsDiv_detail}
-            fontWeight="500"
-            size={["xs", "sm", "sm", "md"]}>
-            TripMate is the clone of Makemytrip.com. It is a travel company that
-            provides online travel services.
-          </Heading>
-          <Heading
-            className="project-tech-stack"
-            id={style.major_project_detailsDiv_tehcs}
-            size={["sm", "sm", "sm", "sm"]}>
-            Tech Stack: React | Redux | JavaScript | Chakra Ui | CSS
-          </Heading>
-          <Box
-            className="project-card-btn"
-            id={style.major_project_detailsDi_btnDiv}>
-            <Button
-              className="project-card-btn"
-              size={["xs", "sm", "sm", "sm"]}>
-              <a
-                className="project-github-link"
-                id={style.links}
-                rel="noreferrer"
-                href="https://github.com/Aajad2002/tropical-action-4372"
-                target="_blank">
-                Source Code
-              </a>
-              &nbsp;
-              <FaGithub />
-            </Button>
-            <Button
-              className="project-deployed-link"
-              size={["xs", "sm", "sm", "sm"]}>
-              <a
-                className={style.links}
-                rel="noreferrer"
-                href="https://lighthearted-vacherin-70cdeb.netlify.app/"
-                target="_blank">
-                Live
-              </a>
-              &nbsp;
-              <FaArrowRight />
-            </Button>
-          </Box>
-        </Box>
-      </div>
-
-      <div className="project-card" id={style.major_projectDiv}>
-        <Box
-          className={style.major_project_imgDiv}
-         >
-          <Image
-            className="project-skills-card-img"
-            src="./main.png"
-            alt="shopper"
-          />
-        </Box>
-
-        <Box
-          className={style.major_project_detailsDiv}
-          color={colorMode === "light" ? "#4C3575" : "#371B58"}
-          >
-          <Heading
-            className="project-title"
-            id={style.major_project_detailsDiv_Heading}
-            size={["md", "md", "md", "lg"]}>
-            Shopper Korner.com
-          </Heading>
-          <Heading
-            className="project-description"
-            id={style.major_project_detailsDiv_detail}
-            fontWeight="500"
-            size={["xs", "sm", "sm", "md"]}>
-            Shopper Korner is the clone of Gearbest.com. It is a E-Commerce
-            website. All the daily use products are available here.
-          </Heading>
-          <Heading
-            className="project-tech-stack"
-            id={style.major_project_detailsDiv_tehcs}
-            size={["sm", "sm", "sm", "sm"]}>
-            Tech Stack: HTML| CSS | BootStrap |JavaScript
-          </Heading>
-          <Box
-            className="project-card-btn"
-            id={style.major_project_detailsDi_btnDiv}>
-            <Button
-              className="project-card-btn"
-              size={["xs", "sm", "sm", "sm"]}>
-              <a
-                className="project-github-link"
-                id={style.links}
-                rel="noreferrer"
-                href="https://github.com/suhail3535/Indigo-railway-8753"
-                target="_blank">
-                Source Code
-              </a>
-              &nbsp;
-              <FaGithub />
-            </Button>
-            <Button
-              className="project-deployed-link"
-              size={["xs", "sm", "sm", "sm"]}>
-              <a
-                className={style.links}
-                rel="noreferrer"
-                href="https://vermillion-cendol-8a7209.netlify.app/"
-                target="_blank">
-                Live
-              </a>
-              &nbsp;
-              <FaArrowRight />
-            </Button>
-          </Box>
-        </Box>
       </div>
 
       <div className="project-card" id={style.major_projectDiv}>
