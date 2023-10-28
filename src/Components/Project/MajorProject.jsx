@@ -211,6 +211,72 @@ export default function MajorProject({ colorMode }) {
         <Box className={style.major_project_imgDiv}>
           <Image
             className="project-skills-card-img"
+            src="./SquidGame.png"
+            alt="SquidGame"
+          />
+        </Box>
+
+        <Box
+          className={style.major_project_detailsDiv}
+          color={colorMode === "light" ? "#4C3575" : "#371B58"}>
+          <Heading
+            className="project-title"
+            id={style.major_project_detailsDiv_Heading}
+            size={["md", "md", "md", "lg"]}>
+            Squid Game
+          </Heading>
+          <Heading
+            className="project-description"
+            id={style.major_project_detailsDiv_detail}
+            fontWeight="500"
+            size={["xs", "sm", "sm", "md"]}>
+            The Green Light Red Light Game is a web based recreation of the
+            iconic green light/red light game from Squid Games.
+          </Heading>
+          <Heading
+            className="project-tech-stack"
+            id={style.major_project_detailsDiv_tehcs}
+            size={["sm", "sm", "sm", "sm"]}>
+            Tech Stack: React.js | Redux | CSS | ChakraUI | MongoDB | Node.js | Express.js
+          </Heading>
+          <Box
+            className="project-card-btn"
+            id={style.major_project_detailsDi_btnDiv}>
+            <Button
+              className="project-card-btn"
+              size={["xs", "sm", "sm", "sm"]}>
+              <a
+                className="project-github-link"
+                id={style.links}
+                rel="noreferrer"
+                href="https://github.com/MrunaliGabhane/IconicGreenRed_light_game"
+                target="_blank">
+                Source Code
+              </a>
+              &nbsp;
+              <FaGithub />
+            </Button>
+            <Button
+              className="project-deployed-link"
+              size={["xs", "sm", "sm", "sm"]}>
+              <a
+                className={style.links}
+                rel="noreferrer"
+                href="https://resilient-toffee-9bded5.netlify.app/"
+                target="_blank">
+                Live
+              </a>
+              &nbsp;
+              <FaArrowRight />
+            </Button>
+          </Box>
+        </Box>
+      </div>
+
+      <div className="project-card" id={style.major_projectDiv}>
+        <Box className={style.major_project_imgDiv}>
+          <Image
+            className="project-skills-card-img"
             src="./mealMover.png"
             alt="Toptrip"
           />
@@ -273,71 +339,7 @@ export default function MajorProject({ colorMode }) {
         </Box>
       </div>
 
-      <div className="project-card" id={style.major_projectDiv}>
-        <Box className={style.major_project_imgDiv}>
-          <Image
-            className="project-skills-card-img"
-            src="./SquidGame.png"
-            alt="SquidGame"
-          />
-        </Box>
-
-        <Box
-          className={style.major_project_detailsDiv}
-          color={colorMode === "light" ? "#4C3575" : "#371B58"}>
-          <Heading
-            className="project-title"
-            id={style.major_project_detailsDiv_Heading}
-            size={["md", "md", "md", "lg"]}>
-            Squid Game
-          </Heading>
-          <Heading
-            className="project-description"
-            id={style.major_project_detailsDiv_detail}
-            fontWeight="500"
-            size={["xs", "sm", "sm", "md"]}>
-            The Green Light Red Light Game is a web based recreation of the
-            iconic green light/red light game from Squid Games.
-          </Heading>
-          <Heading
-            className="project-tech-stack"
-            id={style.major_project_detailsDiv_tehcs}
-            size={["sm", "sm", "sm", "sm"]}>
-            Tech Stack: React.js | Redux | CSS | ChakraUI | MongoDB | Node.js | Express.js
-          </Heading>
-          <Box
-            className="project-card-btn"
-            id={style.major_project_detailsDi_btnDiv}>
-            <Button
-              className="project-card-btn"
-              size={["xs", "sm", "sm", "sm"]}>
-              <a
-                className="project-github-link"
-                id={style.links}
-                rel="noreferrer"
-                href="https://github.com/MrunaliGabhane/IconicGreenRed_light_game"
-                target="_blank">
-                Source Code
-              </a>
-              &nbsp;
-              <FaGithub />
-            </Button>
-            <Button
-              className="project-deployed-link"
-              size={["xs", "sm", "sm", "sm"]}>
-              <a
-                className={style.links}
-                rel="noreferrer"
-                href="https://resilient-toffee-9bded5.netlify.app/"
-                target="_blank">
-                Live
-              </a>
-              &nbsp;
-              <FaArrowRight />
-            </Button>
-          </Box>
-        </Box>
-      </div>
+      
     </div>
   );
 }
