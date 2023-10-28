@@ -3,14 +3,11 @@ import React, { useEffect } from "react";
 import style from "./Project.module.css";
 import { FaArrowRight, FaGithub } from "react-icons/fa";
 
-
 export default function MajorProject({ colorMode }) {
   return (
     <div id="projects" className={style.majorMain}>
       <div className="project-card" id={style.major_projectDiv}>
-        <Box
-          className={style.major_project_imgDiv}
-         >
+        <Box className={style.major_project_imgDiv}>
           <Image
             className="project-skills-card-img"
             src="./infinityStone.png"
@@ -20,8 +17,7 @@ export default function MajorProject({ colorMode }) {
 
         <Box
           className={style.major_project_detailsDiv}
-          color={colorMode === "light" ? "#4C3575" : "#371B58"}
-          >
+          color={colorMode === "light" ? "#4C3575" : "#371B58"}>
           <Heading
             className="project-title"
             id={style.major_project_detailsDiv_Heading}
@@ -33,14 +29,14 @@ export default function MajorProject({ colorMode }) {
             id={style.major_project_detailsDiv_detail}
             fontWeight="500"
             size={["xs", "sm", "sm", "md"]}>
-            CaratLane is an Indian physical and online jewelry
-retailer, headquartered in Chennai, India
+            CaratLane is an Indian physical and online jewelry retailer,
+            headquartered in Chennai, India
           </Heading>
           <Heading
             className="project-tech-stack"
             id={style.major_project_detailsDiv_tehcs}
             size={["sm", "sm", "sm", "sm"]}>
-            Tech Stack: React | Redux | CSS | ChakraUI | MongoDB | Nodejs
+            Tech Stack: React.js | Redux | CSS | ChakraUI | MongoDB | Node.js | Express.js
           </Heading>
           <Box
             className="project-card-btn"
@@ -75,11 +71,9 @@ retailer, headquartered in Chennai, India
           </Box>
         </Box>
       </div>
-    
+
       <div className="project-card" id={style.major_projectDiv}>
-        <Box
-          className={style.major_project_imgDiv}
-          >
+        <Box className={style.major_project_imgDiv}>
           <Image
             className="project-skills-card-img"
             src="./tripbuddy.png"
@@ -89,8 +83,7 @@ retailer, headquartered in Chennai, India
 
         <Box
           className={style.major_project_detailsDiv}
-          color={colorMode === "light" ? "#4C3575" : "#371B58"}
-          >
+          color={colorMode === "light" ? "#4C3575" : "#371B58"}>
           <Heading
             className="project-title"
             id={style.major_project_detailsDiv_Heading}
@@ -102,9 +95,8 @@ retailer, headquartered in Chennai, India
             id={style.major_project_detailsDiv_detail}
             fontWeight="500"
             size={["xs", "sm", "sm", "md"]}>
-            TripBuddy is a comprehensive platform for
-unforgettable stays and seamless travel
-experiences.
+            TripBuddy is a comprehensive platform for unforgettable stays and
+            seamless travel experiences.
           </Heading>
           <Heading
             className="project-tech-stack"
@@ -146,11 +138,8 @@ experiences.
         </Box>
       </div>
 
-
       <div className="project-card" id={style.major_projectDiv}>
-        <div
-          className={style.major_project_imgDiv}
-          >
+        <div className={style.major_project_imgDiv}>
           <Image
             className="project-skills-card-img"
             src="./royalElectronics.png"
@@ -160,8 +149,7 @@ experiences.
 
         <div
           className={style.major_project_detailsDiv}
-          color={colorMode === "light" ? "#4C3575" : "#371B58"}
-          >
+          color={colorMode === "light" ? "#4C3575" : "#371B58"}>
           <Heading
             className="project-title"
             id={style.major_project_detailsDiv_Heading}
@@ -220,9 +208,7 @@ experiences.
       </div>
 
       <div className="project-card" id={style.major_projectDiv}>
-        <Box
-          className={style.major_project_imgDiv}
-         >
+        <Box className={style.major_project_imgDiv}>
           <Image
             className="project-skills-card-img"
             src="./mealMover.png"
@@ -232,8 +218,7 @@ experiences.
 
         <Box
           className={style.major_project_detailsDiv}
-          color={colorMode === "light" ? "#4C3575" : "#371B58"}
-         >
+          color={colorMode === "light" ? "#4C3575" : "#371B58"}>
           <Heading
             className="project-title"
             id={style.major_project_detailsDiv_Heading}
@@ -252,7 +237,7 @@ experiences.
             className="project-tech-stack"
             id={style.major_project_detailsDiv_tehcs}
             size={["sm", "sm", "sm", "sm"]}>
-            Tech Stack: React | Javascript | chakra UI | CSS
+            Tech Stack: React.js | Javascript | chakra UI | CSS
           </Heading>
           <Box
             className="project-card-btn"
@@ -278,6 +263,72 @@ experiences.
                 className={style.links}
                 rel="noreferrer"
                 href="https://astonishing-pika-ce8ecd.netlify.app/"
+                target="_blank">
+                Live
+              </a>
+              &nbsp;
+              <FaArrowRight />
+            </Button>
+          </Box>
+        </Box>
+      </div>
+
+      <div className="project-card" id={style.major_projectDiv}>
+        <Box className={style.major_project_imgDiv}>
+          <Image
+            className="project-skills-card-img"
+            src="./SquidGame.png"
+            alt="SquidGame"
+          />
+        </Box>
+
+        <Box
+          className={style.major_project_detailsDiv}
+          color={colorMode === "light" ? "#4C3575" : "#371B58"}>
+          <Heading
+            className="project-title"
+            id={style.major_project_detailsDiv_Heading}
+            size={["md", "md", "md", "lg"]}>
+            Squid Game
+          </Heading>
+          <Heading
+            className="project-description"
+            id={style.major_project_detailsDiv_detail}
+            fontWeight="500"
+            size={["xs", "sm", "sm", "md"]}>
+            The Green Light Red Light Game is a web based recreation of the
+            iconic green light/red light game from Squid Games.
+          </Heading>
+          <Heading
+            className="project-tech-stack"
+            id={style.major_project_detailsDiv_tehcs}
+            size={["sm", "sm", "sm", "sm"]}>
+            Tech Stack: React.js | Redux | CSS | ChakraUI | MongoDB | Node.js | Express.js
+          </Heading>
+          <Box
+            className="project-card-btn"
+            id={style.major_project_detailsDi_btnDiv}>
+            <Button
+              className="project-card-btn"
+              size={["xs", "sm", "sm", "sm"]}>
+              <a
+                className="project-github-link"
+                id={style.links}
+                rel="noreferrer"
+                href="https://github.com/MrunaliGabhane/IconicGreenRed_light_game"
+                target="_blank">
+                Source Code
+              </a>
+              &nbsp;
+              <FaGithub />
+            </Button>
+            <Button
+              className="project-deployed-link"
+              size={["xs", "sm", "sm", "sm"]}>
+              <a
+                className={style.links}
+                rel="noreferrer"
+                href="https://resilient-toffee-9bded5.netlify.app/"
                 target="_blank">
                 Live
               </a>
